@@ -2,7 +2,7 @@
 /*
  * main - this is the main function
  * 
- * Reurn - always 0
+ * Reurn: always 0
  */
 int main(void)
 {
