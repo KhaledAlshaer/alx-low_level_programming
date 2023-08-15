@@ -1,22 +1,14 @@
-#include <stdio.h>
+#include "main.h"
 /**
- *main - This is the main function
- *Return: always returns 0
+ * print_alphabet - prints the alphabet from a to z
  */
-void print_alphabet(void);
-int main(void)
-{
-	print_alphabet;
-	return (0);
-}
 void print_alphabet(void)
 {
 	int i;
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
-		putchar(i);
-		putchar('\n');
-		return;
+		_putchar(i);
+		_putchar('\n');
 	}
 }
