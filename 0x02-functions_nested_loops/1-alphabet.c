@@ -4,14 +4,14 @@
  *main - This is the main function
  *Return: always returns 0
  */
-void print_alphabet(void);
+int print_alphabet();
 int main(void)
 {
 
-	void print_alphabet(void);
+	int print_alphabet();
 	return (0);
 }
-void print_alphabet(void)
+int print_alphabet()
 {
 	int i;
 
