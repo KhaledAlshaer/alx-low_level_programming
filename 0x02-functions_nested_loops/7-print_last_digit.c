@@ -2,7 +2,7 @@
 
 /**
  *print_last_digit - function
- *@n: variable
+ *@last: variable
  *Return: 0
  */
 
