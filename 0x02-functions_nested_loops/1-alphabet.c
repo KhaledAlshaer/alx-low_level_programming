@@ -2,7 +2,8 @@
 /**
  * print_alphabet - prints the alphabet from a to z
  */
-void print_alphabet(void)
+void print_alphabet(void);
+int main(void)
 {
 	int i;
 
