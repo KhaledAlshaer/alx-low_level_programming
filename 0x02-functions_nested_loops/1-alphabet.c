@@ -2,10 +2,9 @@
 /**
  * print_alphabet - prints the alphabet from a to z
  */
-void print_alphabet(void);
-int main(void)
+void print_alphabet(void)
 {
-	int i;
+	char i;
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
