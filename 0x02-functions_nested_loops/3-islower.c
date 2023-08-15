@@ -3,9 +3,9 @@
 /**
  *_islower - this detects the lower case letters
  *
- *@c - checks input of function
+ *@c: the character to be checked
  *
- *Return : returns 1 if 'c' is lower case otherwise returns 0 (success)
+ *Return: 1 if  lower case otherwise returns 0 (success)
  */
 int _islower(int c)
 {
