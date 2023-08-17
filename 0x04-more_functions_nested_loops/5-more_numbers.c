@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *more_numbers - This is the function
- *Return: always returns 0
+  *more_numbers - This is the function
+  *Return: always returns 0
  */
 void more_numbers(void)
 {
