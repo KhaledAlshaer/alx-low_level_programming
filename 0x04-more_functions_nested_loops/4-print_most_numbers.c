@@ -2,7 +2,6 @@
 
 /**
  *print_most_numbers - This is the function
- *@i: this is the variable
  *Return: always returns 0
  */
 void print_most_numbers(void)
