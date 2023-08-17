@@ -1,15 +1,14 @@
 #include "main.h"
 
 /**
- *main - This is the main function
+ *_isupper - This is the function
+ *@c: this is the variable
  *Return: always returns 0
  */
 
 int _isupper(int c)
 {
-	int i;
-
-	if (i >= 65 && i <= 90)
+	if (c >= 65 && c <= 90)
 	{
 		return (1);
 	}
