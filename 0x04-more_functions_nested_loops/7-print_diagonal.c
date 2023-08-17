@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *_isupper - This is the function
- *@c: this is the variable
+ *print_diagonal - This is the function
+ *@n: this is the variable
  *Return: always returns 0
  */
 void print_diagonal(int n)
@@ -20,4 +20,10 @@ void print_diagonal(int n)
 			for (j = 0; j <= i; j++)
 			{
 				_putchar(' ');
+				_putchar('/');
+				_putchar('\n');
+			}
+		}
+	}
+}
 
