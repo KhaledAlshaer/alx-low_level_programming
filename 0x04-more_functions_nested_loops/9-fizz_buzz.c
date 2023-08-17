@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- *main - This is the main function
- *Return: always returns 0
- */
+ * main - This is the main function
+ * Return: always returns 0
+*/
 int main(void)
 {
 	int i;
@@ -35,6 +35,5 @@ int main(void)
 			printf(" ");
 		}
 	}
-	printf("\n");
+	return (0);
 }
-
