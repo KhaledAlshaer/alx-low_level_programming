@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *reset_to_98 - This is the function
- *@n: this is a variable
+ *rev_string - This is the function
+ *@s: this is a variable
  *Return: returns 0
 */
 void rev_string(char *s)
@@ -12,7 +12,7 @@ void rev_string(char *s)
 
 	for (i = 0; s[i] != '\0'; i++)
 		;
-	for (j = 0; j < i/2; i++)
+	for (j = 0; j < i / 2; i++)
 	{
 		c = s[j];
 		s[j] = s[i - 1 - j];
