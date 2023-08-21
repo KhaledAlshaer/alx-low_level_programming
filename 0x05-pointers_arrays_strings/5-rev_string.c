@@ -20,5 +20,4 @@ void rev_string(char *s)
 		s[j] = s[n - 1 - j];
 		s[n - 1 - j] = c;
 	}
-	printf("\n");
 }
