@@ -16,8 +16,8 @@ void rev_string(char *s)
 	}
 	for (j = 0; j < n / 2; j++)
 	{
-		c = s[i];
-		s[i] = s[n - 1 - j];
+		c = s[j];
+		s[j] = s[n - 1 - j];
 		s[n - 1 - j] = c;
 	}
 	printf("\n");
