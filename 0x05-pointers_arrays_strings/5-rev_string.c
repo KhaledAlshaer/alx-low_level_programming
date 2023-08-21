@@ -1,9 +1,9 @@
 #include "main.h"
-#include <unistd.h>
+#include <stdio.h>
 /**
  *rev_string - This is the function
  *@s: this is a variable
- *Return: returns 0
+ *Return: returns 0
 */
 void rev_string(char *s)
 {
@@ -20,5 +20,5 @@ void rev_string(char *s)
 		s[i] = s[n - 1 - j];
 		s[n - 1 - j] = c;
 	}
-	_putchar('\n');
+	printf("\n");
 }
