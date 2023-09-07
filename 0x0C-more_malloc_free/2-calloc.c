@@ -13,7 +13,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	unsigned char *b;
 
 	t = (size_t)nmemb * size;
-	p = malloc(t);
+	p = malloc((size_t)t);
 	b = (unsigned char *)p;
 	if (p == NULL)
 	{
@@ -23,7 +23,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	{
 		return (NULL);
 	}
-	for (i = 0; i < t; i++)
+	for ( i = 0; i < t; i++)
 	{
 		b[i] = 0;
 	}
