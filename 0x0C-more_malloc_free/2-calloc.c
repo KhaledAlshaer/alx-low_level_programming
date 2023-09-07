@@ -12,18 +12,18 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	unsigned int i, t;
 	unsigned char *b;
 
-	t = nmemb * size;
-	p = malloc(t);
-	b = (unsigned char *)p;
-	if (p == NULL)
-	{
-		return (NULL);
-	}
 	if (nmemb == 0 || size == 0)
 	{
 		return (NULL);
 	}
-	for ( i = 0; i < t; i++)
+	t = nmemb * size;
+	p = malloc(t);
+	if (p == NULL)
+	{
+		return (NULL);
+	}
+	b = (unsigned char *)p;
+	for (i = 0; i < t; i++)
 	{
 		b[i] = 0;
 	}
