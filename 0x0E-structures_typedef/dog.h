@@ -3,12 +3,15 @@
 
 /**
  *struct dog - this is the function
+ *@name: name
  *@age: dog's age
+ *@owner: owner
  */
-struct dog {
-    char *name;
-    float age;
-    char *owner;
+struct dog
+{
+	char *name;
+	float age;
+	char *owner;
 };
 
 
