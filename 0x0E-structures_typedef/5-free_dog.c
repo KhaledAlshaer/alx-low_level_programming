@@ -3,16 +3,21 @@
 
 /**
  *free_dog - This is the function
- *@dog_t *d: this is a variable
+ *@d: this is a variable
  *Return: void
 */
 void free_dog(dog_t *d)
 {
-	if (d == NULL)
+	if (d)
 	{
-		return;
+		if (d->name)
+		{
+			free(d->name);
+		}
+		if (d->owner)
+		{
+			free(d->owner);
+		}
+		free(d);
 	}
-	free(d->name);
-	free(d->owner);
-	free(d);
 }
