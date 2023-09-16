@@ -5,10 +5,9 @@
 #include <stddef.h>
 
 /**
- *struct token - This is the function
+ *struct format - A structure to hold format information
  *@f: this is a variable
- *@token: this is a variable
- *Return: returns 0
+ *@format: The format specifier string
 */
 typedef struct format
 {
