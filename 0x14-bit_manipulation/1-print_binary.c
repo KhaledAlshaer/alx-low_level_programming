@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- *print_binary - This is the function
- *@n:this is a variable
- *Return: returns 0
-*/
+ * print_binary - Prints the binary representation of a given number.
+ * @n: The number to print in binary.
+ * Return: No return value.
+ */
 void print_binary(unsigned long int n)
 {
 	int mask = 0;
