@@ -1,3 +1,4 @@
+#include "list.h"
 /**
  *free_dlistint - this is the function
  *@head: this is a vraiable
