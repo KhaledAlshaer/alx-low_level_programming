@@ -4,4 +4,4 @@ OBJ = $(wildcard *.o)
 NAME = school
 
 all: $(obj)
-	$(CC) $(SRC) -o $(NAME)
+	$(CC) $? $(SRC) -o $(NAME)
