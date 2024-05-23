@@ -19,7 +19,7 @@ int binary_search(int *array, size_t size, int value)
 		printf("Value checked array[%ld] = [%d]\n", mid, array[mid]);
 
 		if (array[mid] == value)
-			return (i);
+			return (mid);
 		else if (array[mid] > value)
 			mid = mid / 2;
 		else
